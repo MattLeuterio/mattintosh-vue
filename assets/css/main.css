@@ -1,0 +1,41 @@
+/* Commons */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* utility */
+
+/* header */
+nav {
+    height: 60px;
+    padding: 0 20px;
+    background: #ccc;
+}
+
+.nav-logo img {
+    width: 130px;
+}
+
+.nav-menu ul li{
+    display: inline;
+}
+
+/* Main */
+
+.main-section .card {
+    margin: 5px;
+}
+
+
+
+.product-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

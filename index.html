@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mattintosh - VueJS</title>
+    <!-- Bootstrap -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css'/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="d-flex justify-content-between align-items-center">
+            <div class="nav-logo">
+                <a href="/">
+                    <img src="assets/img/logo-mattintosh.png" alt="logo">
+                </a>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li class="computer">Computer</li>
+                    <li class="software">Software</li>
+                </ul>
+            </div>
+            <div class="cart">
+                <h6 class="text-primary">Cart()</h6>
+            </div>
+        </nav>
+        
+    </header>      
+    
+    <div id="app" class="container">
+        <!-- Vue here -->
+        <computer></computer>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
